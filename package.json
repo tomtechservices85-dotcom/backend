@@ -4,7 +4,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "node index.js",
+    "start": "node index.js"
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",
@@ -14,11 +15,7 @@
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
     "multer": "^2.1.1",
-    "prisma": "^5.22.0"
-  }
-}
-{
-  "scripts": {
-    "start": "node index.js"
+    "prisma": "^5.22.0",
+    "path": "^0.12.7"
   }
 }
